@@ -1,0 +1,38 @@
+{
+  "name": "lottie-json",
+  "version": "0.0.1",
+  "description": "The type declaration for Lottie JSON",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "typedocMain": "index.ts",
+  "files": [
+    "**/*.js",
+    "**/.d.ts"
+  ],
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc",
+    "changeset": "changeset",
+    "build:docs": "npx typedoc --options ./typedoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eteplus/lottie-json.git"
+  },
+  "keywords": [
+    "Lottie",
+    "LottieJSON"
+  ],
+  "author": "eteplus <eteplus@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eteplus/lottie-json/issues"
+  },
+  "homepage": "https://github.com/eteplus/lottie-json#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.19.0",
+    "typedoc": "^0.22.10",
+    "typescript": "^4.5.4"
+  }
+}

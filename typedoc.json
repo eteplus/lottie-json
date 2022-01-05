@@ -1,0 +1,7 @@
+{
+  "name": "LottieJSON",
+  "entryPoints": ["index.ts"],
+  "sort": ["kind", "source-order"],
+  "includeVersion": true,
+  "hideGenerator": true
+}

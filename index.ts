@@ -1,0 +1,1 @@
+export * as LottieJSON from './types'
